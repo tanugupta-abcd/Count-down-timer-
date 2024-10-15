@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(163, 135, 177);
+    color: rgb(169, 191, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* rgb(77, 29, 109); */
+
+.container{
+    width: 70%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(106, 37, 151);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+h2{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+#countdown{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap:1rem;
+}
+#countdown div{
+    text-align: center;
+   display: flex;
+   flex-direction: column;
+    padding: 5px 30px 5px 30px;
+    background-color:rgb(164, 148, 169) ;
+    border-radius: 5px;
+    color: aliceblue;
+ 
+}
+span{
+    font-size: xx-large;
+}
+.progress-container{
+   
+    background: rgb(223, 228, 233);
+    height: 8px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+ }
+
+ #progress-bar{
+    background-color:rgba(87, 169, 25, 0.847) ;
+    width: 0%;
+    height: 100%;
+    transition: width 1s ease-in-out;
+    border-radius: 5px;
+
+ }
